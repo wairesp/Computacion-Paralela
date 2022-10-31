@@ -73,11 +73,11 @@ int main(){
 	auto B = new int[DIM][DIM];
 	auto C = new int[DIM][DIM];
 
-	//populate the arrays A and B
+	//populate the arrays B and C
 	for (int i = 0; i<DIM; i++){
 		for (int j = 0; j < DIM; j++){
-			A[i][j] = rand() % 10;
 			B[i][j] = rand() % 10;
+			C[i][j] = rand() % 10;
 		}
 	}
 
